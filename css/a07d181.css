@@ -1,0 +1,18 @@
+/*!
+ * Variable Declarations
+ *//*!
+ * Primary Colors 
+ *//*!
+ * Secondary Colors
+ *//*!
+* Fonts
+*/.menu--title{position:absolute;bottom:2vw;left:0;right:0;font-family:Simpliciter Sans Bold;text-transform:uppercase;font-size:3vw}@media(max-width:767px){.menu--title{font-size:21px;bottom:2.5vw}}.menu--graphic{height:calc((var(--lineheight) + var(--lineheight)/3.5)*var(--unit));width:calc(var(--linewidth)*var(--unit));position:absolute;top:0;left:50%;transform:translateX(-50%);border:5px solid #000;border-radius:30px;text-align:center;padding:2.5vw;box-sizing:border-box}@media(max-width:767px){.menu--graphic{border:3px solid #000;border-radius:20px}}.menu--graphic img{position:absolute;top:50%;left:50%;width:calc(100% - 6vw);transform:translate(-50%,-70%);max-height:60%}
+/*!
+ * Variable Declarations
+ *//*!
+ * Primary Colors 
+ *//*!
+ * Secondary Colors
+ *//*!
+* Fonts
+*/.menu--container{top:0;left:0;bottom:0;right:0;overflow:hidden}.menu--container,.menu--inner{position:absolute;-webkit-backface-visibility:hidden;backface-visibility:hidden;will-change:transform}.menu--inner{width:calc((var(--diameter) + var(--linewidth))*var(--unit));height:calc((var(--diameter) + var(--lineheight))*var(--unit));top:calc(68vh - (var(--lineheight) + var(--lineheight)/3.5)*var(--unit));left:50%}@media(max-width:1024px){.menu--inner{top:calc(60vh - (var(--lineheight) + var(--lineheight)/3.5)*var(--unit))}}@media(max-width:767px){.menu--inner{left:35%;top:calc(50% - 20px)}}.menu--card{height:calc(var(--lineheight)*var(--unit));width:calc(var(--linewidth)*var(--unit));position:absolute;transform-origin:center center}.menu--navigation{width:240px;position:fixed;bottom:12vh;left:50%;transform:translate(-50%)}@media(max-width:767px){.menu--navigation{right:20px;left:auto;top:50%;transform:translateY(-50%);bottom:auto;width:30px;height:150px}}.menu--arrow-left{position:absolute;left:0;top:50%;transform:translateY(-50%);line-height:0;padding:20px}@media(max-width:767px){.menu--arrow-left{left:50%;padding:0;top:0;transform:translate(-50%) rotate(90deg)}}.menu--arrow-right{position:absolute;right:0;top:50%;transform:translateY(-50%);line-height:0;padding:20px}@media(max-width:767px){.menu--arrow-right{left:50%;padding:0;right:auto;bottom:0;top:auto;transform:translate(-50%) rotate(90deg)}}.menu--star{width:50px;height:50px;position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);-webkit-backface-visibility:hidden;backface-visibility:hidden;will-change:transform;line-height:0}@media(max-width:767px){.menu--star{width:38px;height:38px}}
